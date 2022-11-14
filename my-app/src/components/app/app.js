@@ -1,11 +1,12 @@
-import {Component} from "react";
+import {Component} from "react"; // Імпортую компонент з бібліотеки реакт
 
-import AppInfo from "../app-info/app-info";
+import AppInfo from "../app-info/app-info"; // імпортую файл
 import SearchPanel from "../search-panel/search-panel";
 import AppFilter from "../app-filter/app-filter";
 import EmployersList from "../employers-list/employers-list";
 import EmployersAddForm from "../employers-add-form/employers-add-form";
-import './app.css';
+
+import './app.scss'; // Імпортую стилі
 
 class App extends Component {
     constructor(props) {
